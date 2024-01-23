@@ -66,13 +66,13 @@ const WeatherApp = () => {
       </div>
 
       {/* Search Section  */}
-      <div className="search py-4 w-full flex gap-4 mt-5">
+      <div className="search py-4 w-full flex gap-4 mt-1">
         <input type="text" className='w-[200px] p-2 rounded-md outline-none border-none cityname' placeholder='Search City, Country, Place here....'/>
         <button className='bg-white rounded-md p-2 border-none outline-none font-semibold text-[#092756]' onClick={()=>{search()}}>SUBMIT</button>
       </div>
 
       {/* Content Section  */}
-      <div className="content flex flex-col gap-4 items-center mt-6">
+      <div className="content flex flex-col gap-4 items-center mt-1">
         <img src={icon} alt="cloud" className='img' />
         <h1 className='text-white font-semibold text-7xl temp'>20 °C</h1>
       </div>
