@@ -68,7 +68,7 @@ const WeatherApp = () => {
       {/* Search Section  */}
       <div className="search py-4 w-full flex gap-4 mt-5">
         <input type="text" className='w-[300px] p-2 rounded-md outline-none border-none cityname' placeholder='Search City, Country, Place here....'/>
-        <FaSearch size={35} className='text-white' onClick={()=>{search()}}/>
+        <button className='bg-white rounded-md p-4 border-none outline-none font-semibold text-[#092756]' onClick={()=>{search()}}>SUBMIT</button>
       </div>
 
       {/* Content Section  */}
