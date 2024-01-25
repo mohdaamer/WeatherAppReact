@@ -101,14 +101,6 @@ const WeatherApp = () => {
           </div>
         </div>
 
-        <div className="element flex gap-4 p-4">
-          <img src={humidity} alt="" />
-          <div className="data">
-            <h4 className='text-white font-semibold weather text-lg'>Light Rain</h4>
-            <h4 className='text-white font-semibold text-lg'>Weather</h4>
-          </div>
-        </div>
-
         
       </div>
     </div>
