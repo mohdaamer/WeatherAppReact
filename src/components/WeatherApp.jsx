@@ -59,6 +59,9 @@ const WeatherApp = () => {
   return (
     <div className='w-full h-screen bg-gradient-to-b from-[#092756] to-[#0e45ad] p-7'>
 
+      <h1 className='text-white font-semibold'>Snowgeek Solutions</h1>
+      <p className='text-white font-semibold mb-6'>Created By Mohammed Aamer</p>
+
       {/* Location Section  */}
       <div className="flex gap-2">
         <IoLocationOutline size={20} className='text-white'/>
