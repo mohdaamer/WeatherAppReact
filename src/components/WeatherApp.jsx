@@ -57,7 +57,7 @@ const WeatherApp = () => {
   }
 
   return (
-    <div className='w-full bg-gradient-to-b from-[#092756] to-[#0e45ad] p-7'>
+    <div className='w-full h-full bg-gradient-to-b from-[#092756] to-[#0e45ad] p-7'>
 
       <h1 className='text-white font-semibold'>Snowgeek Solutions</h1>
       <p className='text-white font-semibold mb-6'>Created By Mohammed Aamer</p>
